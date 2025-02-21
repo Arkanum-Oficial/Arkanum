@@ -9,10 +9,20 @@ document.getElementById("login-form").addEventListener("submit", function(event)
    
 });
 btn_Login.addEventListener('click', () => {
+
     if(Nome.value == 'ayano15k' && Senha.value == 'ayano15k@2025') {
+
         alert(`Bem Vindo de volta ${Nome.value}`);
         window.location.href = '../../sistema/usuarios/Ayano15k/Ayano15k.html';
+
+    }else if (Nome.value == 'Yukii' && Senha.value == 'Giselearmy'){
+
+        alert(`Bem Vindo de volta ${Nome.value}`);
+        window.location.href = '../../sistema/usuarios/Yukii/Yukii.html';
+
     }else{
         alert('Usuario ou senha incorreto')
     }
+    
+    
 })
