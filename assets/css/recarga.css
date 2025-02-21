@@ -1,0 +1,8 @@
+.container-recarga {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

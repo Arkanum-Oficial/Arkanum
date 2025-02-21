@@ -1,0 +1,68 @@
+.main-jogador {
+    margin-top: 200px;
+}
+
+.personagem-jogador {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.informacoesDoJogador {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.iteminformacaoNivelRank {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.iteminformacaoMoedas {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.personagem-jogador > img {
+    width: inherit;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+   
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .informacoesDoJogador {
+        display: block;
+    }
+
+    .personagem-jogador {
+        width: 100%;
+    }
+
+    .iteminformacaoNivelRank {
+        position: initial;
+    }
+
+    .iteminformacaoMoedas {
+        position: initial;
+    }
+}
